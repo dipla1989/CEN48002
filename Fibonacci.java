@@ -1,6 +1,11 @@
 public class Fibonacci {
 
-    
+    /**
+     * Calculates the nth term in the Fibonacci sequence.
+     * 
+     * @param n the position in the Fibonacci sequence
+     * @return the nth term in the Fibonacci sequence
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
@@ -10,8 +15,9 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        int n = 10; // We're looking for the 10th term
+        int n = 10; 
         int result = fibonacci(n);
         System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
     }
 }
+
